@@ -1,0 +1,43 @@
+.fondovioleta{
+    background-color: #1F0832;
+}
+.borderneon{
+    border-top: 0ch;
+    border-bottom: 1px;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-style: solid;
+    border-color: #F9D4FA;
+    box-shadow: 1px 1px 20px #E028E5;
+}
+.borderneon2{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: #F9D4FA;
+    box-shadow: 1px 1px 20px #E028E5;
+}
+.fondoimagen {
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    /* Flexbox */
+
+}
+.opacity {
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+}
+.cartatamaño{
+    max-width: 250px;
+}
+.centrar {
+    display: flex;
+    align-items: center;
+}
