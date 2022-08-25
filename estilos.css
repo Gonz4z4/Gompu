@@ -19,6 +19,36 @@
     border-color: #F9D4FA;
     box-shadow: 1px 1px 20px #E028E5;
 }
+
+.borderneonrojo{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: #C69B9B;
+    box-shadow: 1px 1px 20px #BF1D1D;
+}
+
+.borderneonazul{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: #9B9BC6;
+    box-shadow: 1px 1px 20px #0068FA;
+}
+
+.borderneonverde{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: #9BC6A4;
+    box-shadow: 1px 1px 20px #1DBF40;
+}
 .fondoimagen {
     background-image: url(img/fondo.jpg);
     background-position: center;
@@ -46,4 +76,12 @@
 }
 .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+#volver {
+    max-width: 3em;
+}
+#volver1{
+    position: fixed;    
+    bottom: 2em;
+    right: 2em;
 }
