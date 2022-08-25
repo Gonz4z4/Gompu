@@ -26,3 +26,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 }); 
   // DOMContentLoaded  end
+
+  //js para ocultar navbar
